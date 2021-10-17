@@ -1,76 +1,40 @@
 # UFOs
 
 # Overview
-Use Javascript, HTML, and CSS to create a custom webpage that showcases different UFO sitings around the world.
+An In-depth Analysis of UFO sightings around the world.
 
 ## Purpose
-In this module, you'll build a table using data stored in a JavaScript array. You'll also create filters to make this table fully dynamic, meaning that it will react to user input, and then place the table into an HTML file for easy viewing.
 
-You'll customize your webpage using Bootstrap, and equip your table with several fully functional filters that will allow users to interact with our visualizations. 
+The purpose of this project was to create an interactive webpage that allows readers to parse data around UFO sightings. 
 
+- Step 1 Build a webpage that will allow users to view the data (HTML). 
+- Step 2 Build a dynamic table that will present it (JavaScript).
 
+NOTE: HTML and JavaScript elements were created simultaneously because they complemented each other. For example, the JavaScript table was referenced within the HTML code, and different HTML components were referenced within the JavaScript code. Because these files were so closely linked, the developer switched between building the JavaScript table (within the app.js file) and the HTML page (within an index.html file). 
+
+- A table was built using data stored in a JavaScript array. Arrow functions (one of the most popular aspects of the ES6 update) were used.
+- Filters were created to make the table fully dynamic, meaning that it reacts to user input.
+- The table was placed into an HTML file for easy viewing.
+- A Webpage was customized using Bootstrap. 
 
 #### Challenge: 
 
+The purpose of this challenge was to expand on the project completed during the module and use Javascript, HTML, and CSS to create a custom webpage that showcased different UFO sitings around the world and allowing users to filter for multiple criteria at the same time. The challenge consisted of one technical analysis deliverable and a written report as follows.
 
-# Resources
+### Deliverable 1 - Filtered UFO Sightings on Multiple Criteria
 
-#### Data Files: 
-???
+Using JavaScript and HTML, the code was modified in the index.html file to create additional table filters for the city, state, country, and shape as shown below:
 
-#### Programming Software:
-Javascript
+The handleClick() function was replaced in the app.js file with a new function that saved the element, value, and id of the filter that was changed above. A new function was created to loop through the dataset and keep only the results that match the search criteria. The webpage was updated with the search criteria.
 
+### Deliverable 2 
 
-# Results
+For your written analysis, be sure to use complete and coherent sentences. Your written analysis should contain three sections, which cover the following:
 
-### Web Scraping Analysis:
+## Results: 
 
-Step 1 - Using Chrome Developer Tools (also known as DevTools) allows developers to look at the structure of any webpage.  Goal was to extract the most recently published article's title and summary from NASA news website.
+Describe to Dana how someone might use the new webpage by walking her through the process of using the search criteria. Use images of your webpage during the filtering process to support your explanation.
 
-The following chart represents the dates from the weather dataset and the total amount of precipitation for each day for all nine weather stations. The chart reveals some months have higher amounts of precipitation than others. 
-![Fig1Precipitation.png](https://github.com/KimberlyCrawford/Surfs_Up/blob/main/analysis/Fig1Precipitation.png)
+## Summary: 
 
-The following summary includes different statistics for the amount of precipitation in a year. The count is the number of times precipitation was observed. The other statistics are the precipitation amounts for each station for each day.
-![Precipitation_Summary_Statistics.png](https://github.com/KimberlyCrawford/Surfs_Up/blob/main/analysis/Precipitation_Summary_Statistics.png)
-
-Out of the nine stations, the following shows the most active stations with precipitation recordings listed in descending order.
-![Most_active_stations.png](https://github.com/KimberlyCrawford/Surfs_Up/blob/main/analysis/Most_active_stations.png)
-
-### Weather Station Analysis:
-The most active station was Station ID USC00519281. The results show that the low (minimum) temperature is 54 degrees, the high (maximum) temperature is 85 degrees, and the average temperature is approximately 71.7 degrees.
-![Most_active_station_statistics.png](https://github.com/KimberlyCrawford/Surfs_Up/blob/main/analysis/Most_active_station_statistics.png)
-
-Observed 12-month temperature data for Station ID USC00519281 (2772 observations) reveals a vast majority of the observations were over 67 degrees. Temperatures over 67 degrees were observed approximately 325 days over the twelve-month period. 
-![Fig2Temperature.png](https://github.com/KimberlyCrawford/Surfs_Up/blob/main/analysis/Fig2Temperature.png)
-
-Analysis Results Website for Potential Investors includes a Welcome Homepage with the following additional routes:
- http://127.0.0.1:5000/
-- Precipitation
-- Stations
-- Monthly Temperature
-- Statistics 
-
-# Challenge Summary
-
-The following summary describes the key differences in weather between June and December and two recommendations for further analysis. As shown in the results, a surf and ice cream shop business would be sustainable year-round.
-
-## Challenge Results: 
-
-#### Summary Statistics for June
-
-![June_statistics.png](https://github.com/KimberlyCrawford/Surfs_Up/blob/main/analysis/June_statistics.png) ![Fig3June.png](https://github.com/KimberlyCrawford/Surfs_Up/blob/main/analysis/Fig3June.png)
-- The average temperature in June was slightly higher at 74.9 compared to 71.0 in December.
-- The minimum temperature in June was slightly higher at 64 compared to 56 in December.
-- The maximum temperature in June was slightly higher at 85 compared to 83 in December.
-
-#### Summary Statistics for December
-
-![December_statistics.png](https://github.com/KimberlyCrawford/Surfs_Up/blob/main/analysis/December_statistics.png) ![Fig4December.png](https://github.com/KimberlyCrawford/Surfs_Up/blob/main/analysis/Fig4December.png)
-- The average temperature in December was slightly lower at 71.0 compared to 74.9 in June.
-- The minimum temperature in December was slightly lower at 56 compared to 64 in June.
-- The maximum temperature in December was slightly lower at 83 compared to 85 in June.
-
-## Recommendations for Further Analysis: 
-- Query 1 - Additional query to perform to gather more weather data for June and December should include a precipitation analysis especially with June starting hurricane season.
-- Query 2 - Additional query to perform to gather more weather data for June and December should include a refined list of temperatures based on various times of the day.
+In a summary statement, describe one drawback of this new design and two recommendations for further development.
