@@ -17,7 +17,7 @@ NOTE: HTML and JavaScript elements were created simultaneously because they comp
 - The table was placed into an HTML file for easy viewing.
 - A Webpage was customized using Bootstrap. 
 
-#### Challenge: 
+## Challenge
 
 The purpose of this challenge was to expand on the project completed during the module and use Javascript, HTML, and CSS to create a custom webpage that showcased different UFO sitings around the world and allowing users to filter for multiple criteria at the same time. The challenge consisted of one technical analysis deliverable and a written report as follows.
 
@@ -27,14 +27,26 @@ Using JavaScript and HTML, the code was modified in the index.html file to creat
 
 The handleClick() function was replaced in the app.js file with a new function that saved the element, value, and id of the filter that was changed above. A new function was created to loop through the dataset and keep only the results that match the search criteria. The webpage was updated with the search criteria.
 
-### Deliverable 2 
+### Deliverable 2 - Written Analysis
 
-For your written analysis, be sure to use complete and coherent sentences. Your written analysis should contain three sections, which cover the following:
+The following written analysis contains the results and summary of the project:
 
 ## Results: 
 
-Describe to Dana how someone might use the new webpage by walking her through the process of using the search criteria. Use images of your webpage during the filtering process to support your explanation.
+The process of using the search criteria to filter the data on the Webpage includes the following:
+
+1)
+
+2)
+
+3)
 
 ## Summary: 
 
-In a summary statement, describe one drawback of this new design and two recommendations for further development.
+Although the Webpage design met the project requirements, one drawback of the new design was?
+
+Two recommendations for further development include:
+
+1)
+
+2)
