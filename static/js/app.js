@@ -20,24 +20,12 @@ function buildTable(data) {
     Object.values(dataRow).forEach((val) => {
       let cell = row.append("td");
       cell.text(val);
-    });
+      }
+    );
   });
 }
 
-// create date filter.
-// create a couple of variables to hold our date data, both filtered and unfiltered
-function handleClick() {
-  let date = d3.select("#datetime").property("value");
-
-// set a default filter and save it to a new variable
-let filteredData = tableData;
-
-// If there is a date already set, then use that date as a filter. If not, then return the default data.
-if (date) {
-  filteredData = filteredData.filter(row => row.datetime === date);
-};
-
-// Build a filtered table
+// Build a filtered table to filter by date.
 function handleClick() {
   // Grab the datetime value from the filter
   let date = d3.select("#datetime").property("value");
@@ -102,6 +90,5 @@ function updateFilters() {
   // 2. Attach an event to listen for changes to each filter
   
   
-  // Build the table when the page loads
-  buildTable(tableData);
-}
+// Build the table when the page loads
+buildTable(tableData);

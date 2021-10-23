@@ -1,21 +1,41 @@
 # UFOs
 
 # Overview
-An In-depth Analysis of UFO sightings around the world.
+Creating dynamic content with JavaScript to produce an in-depth analysis of UFO sightings around the world.
 
 ## Purpose
 
-The purpose of this project was to create an interactive webpage that allows readers to parse data around UFO sightings. 
-
-- Step 1 Build a webpage that will allow users to view the data (HTML). 
-- Step 2 Build a dynamic table that will present it (JavaScript).
+The purpose of this project was to create an interactive webpage using HTML and a dynamic table with JavaScript that allows readers to parse data around UFO sightings and see the results on their screen. 
 
 NOTE: HTML and JavaScript elements were created simultaneously because they complemented each other. For example, the JavaScript table was referenced within the HTML code, and different HTML components were referenced within the JavaScript code. Because these files were so closely linked, the developer switched between building the JavaScript table (within the app.js file) and the HTML page (within an index.html file). 
 
-- A table was built using data stored in a JavaScript array. Arrow functions (one of the most popular aspects of the ES6 update) were used.
-- Filters were created to make the table fully dynamic, meaning that it reacts to user input.
-- The table was placed into an HTML file for easy viewing.
-- A Webpage was customized using Bootstrap. 
+## Data
+
+The data for this project was stored in a JavaScript array and consisted of single events (UFO sightings) as shown in the example below:
+
+![Data_array_event.png](https://github.com/KimberlyCrawford/UFOs_Up/blob/main/static/images/Data_array_event.png)
+
+## Steps in Project
+
+1) Created the index.html file (the WebPage) to display the information shown in the following storyboard:
+
+![Storyboard.png](https://github.com/KimberlyCrawford/UFOs_Up/blob/main/static/images/Storyboard.png)
+
+2) Created the style.css sheet to customize the WebPage.
+
+3) Created an Images folder to hold all images displayed on the WebPage.
+
+4) Created the app.js file to build the JavaScript code to align with the WebPage. 
+
+- Imported data from data.js file.
+- Pointed the data to the HTML page using D3 which is a JavaScript library that produces sophisticated and highly dynamic graphics in an HTML webpage. The code declared a variable, tbody, and used d3.select to tell JavaScript to look for the <tbody> tags in the HTML.
+- Used JavaScript functions to build the table. Used the forEach function to iterate through each variable in the data. 
+- Created a second function using the the popular library, D3.js, to equip the website to "listen" for events, such as a user clicking a button and filter by date. When the button is clicked, D3 detected the click and reacted accordingly.
+
+The following was the WebPage result:
+
+![Table_filtered_by_date.png](https://github.com/KimberlyCrawford/UFOs_Up/blob/main/static/images/Table_filtered_by_date.png)
+
 
 ## Challenge
 
@@ -35,7 +55,7 @@ The following written analysis contains the results and summary of the project:
 
 The process of using the search criteria to filter the data on the Webpage includes the following:
 
-1)
+1) 
 
 2)
 
