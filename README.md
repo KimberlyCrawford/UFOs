@@ -47,6 +47,8 @@ Using JavaScript and HTML, the code was modified in the index.html file to creat
 
 The handleClick() function was replaced in the app.js file with a new function that saved the element, value, and id of the filter that was changed above. A new function was created to loop through the dataset and keep only the results that match the search criteria. The webpage was updated with the search criteria.
 
+![Table_filtered_multiple.png](https://github.com/KimberlyCrawford/UFOs/blob/main/static/images//Table_filtered_multiple.png)
+
 ### Deliverable 2 - Written Analysis
 
 The following written analysis contains the results and summary of the project:
@@ -55,18 +57,20 @@ The following written analysis contains the results and summary of the project:
 
 The process of using the search criteria to filter the data on the Webpage includes the following:
 
-1) 
+1) A user can enter 1/5/2010 to filter all of the sightings on this particular day as show below:
 
-2)
+![Table_filtered_by_01052010.png](https://github.com/KimberlyCrawford/UFOs/blob/main/static/images//Table_filtered_by_01052010.png)
 
-3)
+2) A user can further filter by the state of New Jersey by entering "nj" in the state field as show below:
+
+![Table_filtered_by_nj.png](https://github.com/KimberlyCrawford/UFOs/blob/main/static/images//Table_filtered_by_nj.png)
 
 ## Summary: 
 
-Although the Webpage design met the project requirements, one drawback of the new design was?
+Although the Webpage design met the project requirements, one drawback of the new design was it's limitation of data. The data only covered the first two weeks of January 2010.
 
 Two recommendations for further development include:
 
-1)
+1) A new design might included more data to filter. The information was quite limited.
 
-2)
+2) A new design might include drop-down menus for various inputs or a table with the options for input, i.e. circle, light, triangle, etc. Plus, it would be nice to have a description of the shapes and possible a map to select the locations.
