@@ -13,13 +13,13 @@ NOTE: HTML and JavaScript elements were created simultaneously because they comp
 
 The data for this project was stored in a JavaScript array and consisted of single events (UFO sightings) as shown in the example below:
 
-![Data_array_event.png](https://github.com/KimberlyCrawford/UFOs_Up/blob/main/static/images/Data_array_event.png)
+![Data_array_event.png](https://github.com/KimberlyCrawford/UFOs/blob/main/static/images/Data_array_event.png)
 
 ## Steps in Project
 
 1) Created the index.html file (the WebPage) to display the information shown in the following storyboard:
 
-![Storyboard.png](https://github.com/KimberlyCrawford/UFOs_Up/blob/main/static/images/Storyboard.png)
+![Storyboard.png](https://github.com/KimberlyCrawford/UFOs/blob/main/static/images/Storyboard.png)
 
 2) Created the style.css sheet to customize the WebPage.
 
@@ -34,7 +34,7 @@ The data for this project was stored in a JavaScript array and consisted of sing
 
 The following was the WebPage result:
 
-![Table_filtered_by_date.png](https://github.com/KimberlyCrawford/UFOs_Up/blob/main/static/images/Table_filtered_by_date.png)
+![Table_filtered_by_date.png](https://github.com/KimberlyCrawford/UFOs/blob/main/static/images//Table_filtered_by_date.png)
 
 
 ## Challenge
