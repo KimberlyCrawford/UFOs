@@ -74,3 +74,5 @@ Two recommendations for further development include:
 1) A new design might included more data to filter. The information was quite limited.
 
 2) A new design might include drop-down menus for various inputs or a table with the options for input, i.e. circle, light, triangle, etc. Plus, it would be nice to have a description of the shapes and possible a map to select the locations.
+
+#### Module 11, Data Analysis & Visualization Certificate Program, UT Austin McCombs School of Business, 2021.
